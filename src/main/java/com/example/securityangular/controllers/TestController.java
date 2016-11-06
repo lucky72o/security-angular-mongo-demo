@@ -19,8 +19,5 @@ public class TestController {
         return model;
     }
 
-    @RequestMapping("/user")
-    public Principal user(Principal user) {
-        return user;
-    }
+
 }

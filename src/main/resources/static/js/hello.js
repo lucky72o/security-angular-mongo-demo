@@ -44,7 +44,7 @@ angular.module('hello', [ 'ngRoute' ])
 
         };
 
-        authenticate();
+        //authenticate();
         self.credentials = {};
         self.login = function() {
             authenticate(self.credentials, function() {
