@@ -79,11 +79,4 @@ angular.module('secure-angular-app', [
 	};
 
 	init();
-}])
-
-.directive('headerDirective', function() {
-	return {
-		templateUrl : 'assets/js/common/directives/header/header.tpl.html'
-  	};
-})
-;
+}]);

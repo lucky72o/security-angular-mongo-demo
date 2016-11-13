@@ -15,6 +15,6 @@ angular.module('secure-angular-app.router', ['ngRoute',
         templateUrl : 'login.html',
         controller : 'loginController',
         controllerAs: 'controller'
-    }).otherwise('/');
+    }).otherwise('/login');
 
 }]);
